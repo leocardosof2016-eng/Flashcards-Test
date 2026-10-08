@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="page_container1">
+        <div class="header">
+            <header>FlashCards Visuals</header>
+        </div>
+        <div class="import_box">
+            <h2>Importar Decks</h2>
+            <img id="upload_icon" class="btn_page1" src="images/upload_icon.png">
+            <h4><strong>Apenas arquivos .json</strong></h4>
+        </div>
+        <div class="import_box">
+            <h2>Começar do Zero</h2>
+            <img id="create-icon" class="btn_page1" src="images/plus-square.png">
+        </div>
+        <div>
+            <footer>Todos direitos reservados Leonardo C. Rocha</footer>
+        </div>
+    </div>
+
+
+    <!--
+    Pensando no layout mobile, apenas as div's "quadrante_titulo_container" e "quadrante_decks_container" aparecerão por padrão
+    A div "menu_lateral_container" irá aparecer mediante interação
+    Ainda não decidido o que fazer com o quadrante_infos_container
+    -->
+    <div class="page_container2">
+        <div id="quadrante_titulo_container">
+            <img id="logo" src="images/logo.png">
+            <h2>Flashcards Visuals</h2>
+        </div>
+        <div id="quadrante_infos_container"></div> 
+        <div id="menu_lateral_container"></div>
+        <div id="quadrante_decks_container"></div>
+    </div>
+
+
+
+
+
+    <div class="deck">
+        <h2 id="titulo_deck"></h2>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
