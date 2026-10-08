@@ -11,6 +11,11 @@ btnPage1.forEach(botao => {
     });
 });
 
+function voltarPagina1() {
+    page1Container.style.display = "flex";
+    page2Container.style.display = "none";
+};
+
 
 
 
